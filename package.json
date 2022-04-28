@@ -1,0 +1,27 @@
+{
+  "name": "sirclo-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sirclo": "npx cypress run --spec cypress/integration/sirclo/*.spec.js --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldotmardian/sirclo-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldotmardian/sirclo-test/issues"
+  },
+  "homepage": "https://github.com/aldotmardian/sirclo-test#readme",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2"
+  }
+}
